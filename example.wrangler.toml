@@ -1,0 +1,15 @@
+name = "..."
+main = "src/index.ts"
+
+account_id = "..."
+
+compatibility_date = "2022-08-04"
+minify = true
+
+workers_dev = false
+route = { pattern = "...", zone_name = "..." }
+
+[[kv_namespaces]]
+binding = "BUCKET"
+preview_id = "..."
+id = "..."
