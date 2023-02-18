@@ -2,25 +2,21 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/workers-types': ^4.20221111.1
-  hono: ^2.7.1
+  hono: ^3.0.0
 
 dependencies:
-  hono: registry.npmjs.org/hono/2.7.3
+  hono: 3.0.0
 
 devDependencies:
-  '@cloudflare/workers-types': registry.npmjs.org/@cloudflare/workers-types/4.20221111.1
+  '@cloudflare/workers-types': 4.20221111.1
 
 packages:
 
-  registry.npmjs.org/@cloudflare/workers-types/4.20221111.1:
-    resolution: {integrity: sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==, registry: https://registry.gabriewf.tk/npm, tarball: https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20221111.1.tgz}
-    name: '@cloudflare/workers-types'
-    version: 4.20221111.1
+  /@cloudflare/workers-types/4.20221111.1:
+    resolution: {integrity: sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==, registry: https://registry.gabriewf.tk/npm}
     dev: true
 
-  registry.npmjs.org/hono/2.7.3:
-    resolution: {integrity: sha512-2FkuQb3N8fzOGavZIl16pMuUGnZVvr/C+H/bk8gVsyNstm+7DpEbTZEvglMYI0Ehgy08AzyNN+sh07940WlZXA==, registry: https://registry.gabriewf.tk/npm, tarball: https://registry.npmjs.org/hono/-/hono-2.7.3.tgz}
-    name: hono
-    version: 2.7.3
+  /hono/3.0.0:
+    resolution: {integrity: sha512-OBWEvcRydCOLdOiazqOmKy8PXciR8uIyUM9HpmXot7UmwNBGOdEJvTrVRIgjV603w+go6cTXBOvFiQClSABT6Q==}
     engines: {node: '>=16.0.0'}
     dev: false
